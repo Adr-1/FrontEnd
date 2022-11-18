@@ -1,0 +1,42 @@
+body{
+    background-size: 100%;
+    background-color: #404b4ceb;
+}
+h1.intro{ 
+    color: hsl(220, 23%, 97%);
+    margin-left: 38%;
+    padding-top: 0;
+        font-size: 300%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-variation-settings: 'wght' 800;
+        font-stretch: 200%;
+        text-shadow: 4px 4px 5px #0f0d11eb;
+}
+section.banner{
+   background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)) ,url(/assets/img/foto\ portada.jpg) ;
+   background-size: cover;
+   position: relative;
+   width: auto;
+   height: 90vh;
+   -webkit-background-size:cover ;
+}
+div.bottons{
+    padding-top: 2%;
+    margin-left: 5%;
+}
+img.perfil{
+    position: relative;
+    padding-top: 1%;
+    width: 10%;
+    height: 25%;
+    margin-left: 5%;
+    border-radius: 45%;
+}
+.texto_banner{
+    font-size: 160%;
+    margin-left: 1%;
+    padding-top: 1%;
+    color: rgb(242, 236, 236);
+    text-shadow: 4px 4px 5px #0f0d11eb;
+    
+}
